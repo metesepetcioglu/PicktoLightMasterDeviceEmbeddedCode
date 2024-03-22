@@ -1,4 +1,4 @@
-Örneğin 0;1;2;3;4;5;6;7;8;9 şeklinde USB'den gelen string verisini parçalıp bir diziye int karakteri olarak atama yapan fonksiyon:
+Örneğin 0;1;2;3;4;5;6;7;8;9 şeklinde USB'den gelen string verisini parçalayıp bir diziye int karakteri olarak atama yapan fonksiyon:
 
 ```
 static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
